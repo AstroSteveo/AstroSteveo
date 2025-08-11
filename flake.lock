@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1754725699,
+        "narHash": "sha256-iAcj9T/Y+3DBy2J0N+yF9XQQQ8IEb5swLFzs23CdP88=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "85dbfc7aaf52ecb755f87e577ddbe6dbbdbc1054",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "ultrawidewindows": "ultrawidewindows"
+      }
+    },
+    "ultrawidewindows": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1711134207,
+        "narHash": "sha256-9Ku/3OisXtV7KExPEfgJOWwDakqw1OsLZrgS91LNBAA=",
+        "owner": "lucmos",
+        "repo": "UltrawideWindows",
+        "rev": "8f60dada396d6430dc5c2f9b9c7865f53b98df92",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lucmos",
+        "repo": "UltrawideWindows",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
