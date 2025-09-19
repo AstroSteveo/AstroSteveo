@@ -1,4 +1,3 @@
-````markdown name=README.md
 <!-- ───────────────────────────────────────────── -->
 <!--                A S T R O S T E V E O          -->
 <!-- ───────────────────────────────────────────── -->
@@ -20,7 +19,7 @@
 ### 🌌 Core Identity
 
 I challenge “defaults,” especially in spaces that pretend they’re solved (static sharding, brittle world partitioning, boilerplate infra).  
-Patterns are raw material; I recombine them into infrastructure that disappears for the player but empowers the builder.
+Patterns are raw material; I recombine patterns into infrastructure that disappears for the player but empowers the builder.
 
 > Architectures should feel inevitable when finished — not when proposed.
 
@@ -103,7 +102,7 @@ If it can’t survive this loop, it doesn’t ship.
 ### 🧩 Architecture Diagrams
 
 #### 1. World Partition & AOI Window
-````mermaid
+```mermaid
 flowchart TB
   subgraph "Cell Grid (256m each)"
     A1["cx-1,cz-1"] --- A2["cx,cz-1"] --- A3["cx+1,cz-1"]
@@ -116,7 +115,7 @@ flowchart TB
 
   classDef cell fill:#2b2b55,stroke:#555,color:#ccd;
   classDef focus fill:#3d3d88,stroke:#66f,color:#fff;
-````
+```
 
 #### 2. Tick / Replication Pipeline
 ```mermaid
@@ -245,4 +244,3 @@ Open a discussion or a well‑formed issue in `prototype-game` / `k8s-infra`.
 ---
 
 <p align="center"><sub>README = living system. Refactor without apology.</sub></p>
-````
